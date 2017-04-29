@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "58324023411",
+    "firebase_url": "https://battlediet.firebaseio.com",
+    "project_id": "battlediet",
+    "storage_bucket": "battlediet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58324023411:android:180cdbae13a3db84",
+        "android_client_info": {
+          "package_name": "diet.battle.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58324023411-e57889qteqr5ofni9nsk1ikghll4r690.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTL8fzHh1J2q9Lpx5mgbl7mOqR_zG6HgY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58324023411:android:33209cb1f154c8e8",
+        "android_client_info": {
+          "package_name": "diet.battle.com.battlediet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58324023411-e57889qteqr5ofni9nsk1ikghll4r690.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTL8fzHh1J2q9Lpx5mgbl7mOqR_zG6HgY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
