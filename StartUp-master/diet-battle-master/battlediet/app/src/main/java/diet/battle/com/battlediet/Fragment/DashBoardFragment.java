@@ -5,6 +5,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 
 import diet.battle.com.battlediet.R;
@@ -20,6 +22,9 @@ public class DashBoardFragment extends Fragment {
     private String mParam2;
 
     private TextView titleTextView;
+
+
+    static final String[] LIST_MENU = {"줄넘기 100번", "이소라 다이어트 비디오 보기", "물 1리터 먹기", "윗몸 일으키기 100번"} ;
 
 
     public DashBoardFragment() {
@@ -57,7 +62,15 @@ public class DashBoardFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_dash_board, container, false);
+        View v = inflater.inflate(R.layout.fragment_dash_board, container, false);
+
+        ArrayAdapter adapter = new ArrayAdapter(getActivity(), android.R.layout.simple_list_item_1, LIST_MENU) ;
+
+        ListView listview = (ListView) v.findViewById(R.id.todolistview) ;
+        listview.setAdapter(adapter) ;
+
+
+        return v;
     }
 
 
