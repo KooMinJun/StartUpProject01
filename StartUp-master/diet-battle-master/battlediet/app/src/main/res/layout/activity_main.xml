@@ -21,11 +21,12 @@
     </LinearLayout>
     <diet.battle.com.battlediet.View.CustomViewPager
         android:id="@+id/viewPager"
-        android:layout_height="fill_parent"
-        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="65dp"
         android:background="#FFFFFF">
+
     </diet.battle.com.battlediet.View.CustomViewPager>
 
     <LinearLayout
