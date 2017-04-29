@@ -6,32 +6,87 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="diet.battle.com.battlediet.MainActivity">
+
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp">
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:textSize="20dp"
-            android:background="@color/colorPrimaryDark"
-            android:textColor="@color/colorText"
-            android:text="홈"
-            android:id="@+id/titleName"/>
-    </LinearLayout>
-    <diet.battle.com.battlediet.View.CustomViewPager
         android:id="@+id/viewPager"
+        android:orientation="horizontal"
         android:layout_height="fill_parent"
         android:layout_width="fill_parent"
         android:layout_marginTop="50dp"
-        android:layout_marginBottom="60dp"
+        android:layout_marginBottom="65dp"
         android:background="#FFFFFF">
-    </diet.battle.com.battlediet.View.CustomViewPager>
-    <com.roughike.bottombar.BottomBar
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="199.9dp"
+        android:background="@drawable/base_activity_main"
+        >
+    </LinearLayout>
+
+    <LinearLayout
         android:id="@+id/bottomBar"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="65dp"
         android:layout_alignParentBottom="true"
-        app:bb_tabXmlResource="@xml/bottombar_tabs" />
+        android:orientation="horizontal"
+        android:background="@drawable/base_activity_main">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/home" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="홈"
+                android:textColor="@color/colorText"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:background="@drawable/planner"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="배틀 플래너"
+                android:textColor="@color/colorText"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="10dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:background="@drawable/button_battle"/>
 
 </RelativeLayout>
