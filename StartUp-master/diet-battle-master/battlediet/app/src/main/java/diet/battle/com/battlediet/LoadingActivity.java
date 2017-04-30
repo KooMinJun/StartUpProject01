@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.wang.avi.AVLoadingIndicatorView;
 
+import diet.battle.com.battlediet.Fragment.BattleFragmentContent.BattlePlannerPartSelectFragment;
+
 /**
  * Created by hongseung-ui on 2017. 4. 30..
  */
@@ -22,6 +24,7 @@ public class LoadingActivity extends AppCompatActivity {
         runnable= new Runnable() {
             @Override
             public void run() {
+                BattlePlannerPartSelectFragment.customViewPager.setCurrentItem(2);
                 finish();
             }
         };

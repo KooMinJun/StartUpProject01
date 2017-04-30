@@ -41,7 +41,7 @@
                     android:background="@color/colorPrimary"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="보내기"
+                    android:text="완료"
                     android:textSize="16dp"
                     android:textColor="#ffffff"
                     android:textStyle="bold"/>

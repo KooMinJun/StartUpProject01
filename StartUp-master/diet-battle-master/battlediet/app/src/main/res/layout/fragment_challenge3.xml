@@ -41,7 +41,7 @@
                     android:background="@color/colorPrimary"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="다음"
+                    android:text="보내기"
                     android:id="@+id/btn_challenge03"
 
                     android:textSize="16dp"

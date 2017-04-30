@@ -15,7 +15,7 @@ import diet.battle.com.battlediet.View.CustomViewPager;
 
 public class BattlePlannerPartSelectFragment extends Fragment {
 
-    CustomViewPager customViewPager;
+    static public CustomViewPager customViewPager;
     ImageView btn_arr[] = new ImageView[6];
     SharedPreferenceManager sharedPreferenceManager;
     int i;
@@ -47,7 +47,6 @@ public class BattlePlannerPartSelectFragment extends Fragment {
                 @Override
                 public void onClick(View v) {
                     startActivity(new Intent(getContext(), LoadingActivity.class));
-                    customViewPager.setCurrentItem(2);
                     sharedPreferenceManager.putSharedPreference(getContext(),"PartSelect",i);
 
                 }
