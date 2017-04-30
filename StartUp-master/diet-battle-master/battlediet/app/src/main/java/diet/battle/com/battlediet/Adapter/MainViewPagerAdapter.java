@@ -9,7 +9,7 @@ import diet.battle.com.battlediet.Fragment.BattlePlannerFragment;
 import diet.battle.com.battlediet.Fragment.DashBoardFragment;
 
 /**
- * Created by hongseung-ui on 2017. 4. 29..
+ * Created by hongseung-ui on 2017. four. 29..
  */
 
 public class MainViewPagerAdapter extends FragmentStatePagerAdapter {

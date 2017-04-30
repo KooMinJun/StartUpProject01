@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         if(v==btnBattle){
             viewPager.setCurrentItem(1);
-            textViewTitle.setText("배틀 페이지");
+            textViewTitle.setText("배틀");
 
         }
     }

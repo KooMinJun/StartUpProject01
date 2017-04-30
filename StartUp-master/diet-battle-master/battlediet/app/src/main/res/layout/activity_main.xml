@@ -13,7 +13,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:textSize="20dp"
+            android:textSize="24dp"
             android:background="@color/colorPrimaryDark"
             android:textColor="@color/colorText"
             android:text="홈"
@@ -91,11 +91,12 @@
     </LinearLayout>
 
     <Button
+
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
         android:layout_width="85dp"
         android:layout_height="85dp"
         android:id="@+id/btn_battle"
-        android:background="@drawable/button_battle"/>
+        android:background="@drawable/battle_icon"/>
 </RelativeLayout>
